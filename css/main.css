@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+}
+ 
+/* Designing Navigation Menu Starts */
+header {
+  min-height: 75px;
+  max-height: 75px;
+  background: black;
+  color: white;
+  font-weight: 700;
+}
+header a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+header box-icon {
+  margin-right: 0.5em;
+  background: white;
+  border-radius: 0.4em;
+}
+
+header .container {
+  font-size: 18px;
+  min-height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .left-header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0em 1em;
+  padding: 1.2em;
+}
+
+header .right-header {
+  padding: 1.2em;
+  margin: 0 1em;
+}
+header button {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(29, 28, 28);
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border-width: 1px;
+}
+header button.sign-in {
+  margin-left: 0.5em;
+  background-color: rgb(75, 75, 187);
+}
+header span{
+         margin: 0 0.2em;
+}
+/* Designing Navigation Ends */
