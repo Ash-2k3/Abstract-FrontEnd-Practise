@@ -165,3 +165,44 @@ section.main p{
 .main{
   margin: 0;
 }
+
+/*Hero Section*/
+
+/* footer Section */
+
+footer{
+  background: rgb(0, 0, 0);
+  color: aliceblue;
+  min-height: 400px;
+}
+
+footer .container{
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;  
+}
+
+footer box-icon{
+  order: 2;
+  margin-bottom: 0.5em;
+  background: white;
+}
+
+footer ul{
+  list-style: none;
+  line-height: 1.5em;
+}
+
+footer h3{
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+footer section.copyright{
+  max-width: 180px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* footer section done */
+
+
