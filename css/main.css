@@ -13,7 +13,7 @@ body {
 /* Designing Navigation Menu Starts */
 header {
   min-height: 75px;
-  max-height: 75px;
+  /* max-height: 75px; */
   background: black;
   color: white;
   font-weight: 700;
@@ -32,7 +32,7 @@ header box-icon {
 
 header .container {
   font-size: 18px;
-  min-height: inherit;
+  /* min-height: inherit; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,7 +80,7 @@ section.hero {
 }
 
 section.hero .container {
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -100,7 +100,7 @@ section.hero input {
   padding: 8px;
   font-size: 18px;
   margin: auto;
-  width: 80%;
+  width: 70%;
   height: 50px;
   margin-top: 1.5em;
 }
@@ -118,7 +118,7 @@ section.hero input {
 }
 
 section.main .left-options{
-  height: inherit;
+  /* height: inherit; */
   display: flex;
   justify-content:space-between;
   flex-direction: column;
@@ -166,7 +166,7 @@ section.main p{
   margin: 0;
 }
 
-/*Hero Section*/
+/*Main Section Ends*/
 
 /* footer Section */
 
@@ -206,3 +206,55 @@ footer section.copyright{
 /* footer section done */
 
 
+/* for Phone Screens */
+
+@media(max-width:880px){
+  header .right-header{
+    display: none;
+  }
+
+  section h1 {
+     font-size: 2.5rem;
+   
+  }
+
+  section.hero input {
+    margin: auto;
+    width: 60%;
+    height: 45px;
+    margin-top: 1.5em;
+  }
+
+  .main .container{
+    margin: 0;
+    height: inherit;
+    flex-direction: column;
+    
+   /* justify-content: space-evenly; */
+  }
+
+  section.main .left-options{
+  
+margin-right: 0;
+   }
+  section.main .right-options{
+     
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin-top: 1em; */
+    
+  }
+
+  section.main .option{
+    height: ;
+    margin: 2em
+  }
+
+  footer{
+    min-height: 300px;
+  }
+  footer .container{
+    flex-direction: column;
+  }
+
+}
