@@ -2,13 +2,14 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  box-sizing: border-box;
-}
  
+}
+
 /* Designing Navigation Menu Starts */
 header {
   min-height: 75px;
@@ -62,7 +63,42 @@ header button.sign-in {
   margin-left: 0.5em;
   background-color: rgb(75, 75, 187);
 }
-header span{
-         margin: 0 0.2em;
+header span {
+  margin: 0 0.2em;
 }
 /* Designing Navigation Ends */
+
+section.hero {
+ 
+  background: rgb(170, 190, 253);
+  min-height: 250px;
+  padding: 3em;
+
+  
+}
+
+section.hero .container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+   
+}
+
+
+
+section h1 {
+
+  text-align: center;
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+section.hero input {
+  padding: 8px;
+  font-size: 18px;
+  margin: auto;
+  width: 80%;
+  height: 50px;
+  margin-top: 1.5em;
+}
